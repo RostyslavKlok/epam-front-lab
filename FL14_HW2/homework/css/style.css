@@ -1,0 +1,85 @@
+.tm-bg-color-primary {
+  background-color: rgb(101, 195, 207);
+}
+
+.tm-col-md-reverse {
+  flex-direction: row-reverse;
+}
+
+.tm-mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-4 {
+  color: rgb(101, 195, 207);
+}
+
+.btn {
+  background-color: rgb(18, 137, 135);
+  border: none;
+}
+.tm-bg-color-secondary {
+  background-color: rgb(18, 137, 135);
+}
+
+.tm-form-header {
+  background-color: rgb(38, 205, 202);
+}
+
+.pl-2 {
+  z-index: 2;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.tm-card:hover {
+  color: #76cdd8;
+}
+
+.tm-text-color-primary {
+  color: rgb(101, 195, 207);
+}
+
+.btn:hover {
+  background-color: rgb(118, 205, 216);
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
+.img-fluid {
+  transition: all 0.2s;
+}
+
+.tm-pricing-table:hover {
+  box-shadow: 0 0 0 2px #24d4d4;
+}
+
+.btn-secondary:hover {
+  background: #24d4d4;
+}
+
+.tm-contact-form:focus {
+  border-color: #24d4d4;
+  box-shadow: 0 0 0 2px #24d4d4;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount {
+  display: block;
+}
+
+.tm-pricing-discount__star {
+  color: red;
+}
+
+.tm-pricing-discount__text {
+  color: rgb(118, 205, 216);
+}
+
+.tm-card:hover:after {
+  position: absolute;
+  content: "";
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid lightskyblue;
+}
